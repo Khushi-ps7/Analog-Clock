@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #591DA9;
+    /* background-color: rgb(201, 160, 201); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(./download.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+
+}
+.clock{
+    height: 500px;
+    width: 500px;
+    background-color: #eae3f3;
+    border: 8px solid rgb(6, 6, 6);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(./image1.png);  */
+    background-size: cover;
+     background-repeat: no-repeat; 
+
+}
+.center{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+.numbers{
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+#num1{
+    position: relative;
+    left: 275px;
+    bottom: 165px;
+}
+#num2{
+    position: relative;
+    bottom: 100px;
+    left: 325px;
+}
+
+#num3{
+    position: relative;
+    left:335px;
+}
+#num4{
+    position: relative;
+    top: 100px;
+    left:275px;
+}
+#num5{
+    position: relative;
+    top:165px ;
+    left: 185px;
+}
+#num6{
+    position: relative;
+    left:48px;
+    top: 200px;
+}
+#num7{
+    position: relative;
+    right: 80px;
+    top: 165px;
+}
+#num8{
+    position: relative;
+    right: 170px;
+    top: 100px;
+}
+#num9{
+    position: relative;
+    right: 220px;
+}
+#num10{
+    position: relative;
+    right: 220px;
+    bottom:100px
+
+}
+#num11{
+    position: relative;
+    bottom: 165px;
+    right: 210px;
+}
+#num12{
+    position: relative;
+    right: 150px;
+    bottom:200px ;
+}
+
+.hands{
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    transform-origin:  bottom;
+}
+#hourhand{
+    height: 120px;
+    width: 13px;
+    bottom: 62px;
+    right: 170px;
+    border: 1px solid rgb(150, 89, 110);
+}
+#minutehand{
+    height: 180px;
+    width: 10px;
+    bottom: 94px;
+    right: 184px;
+    border: 1px solid rgb(204, 66, 149);
+}
+
+#secondhand{
+    height: 150px;
+    width: 6px;
+    bottom: 78px;
+    right: 191px;
+    border: 1px solid rgb(127, 96, 166);
+    /* z-index: 2; */
+}
